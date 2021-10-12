@@ -3,7 +3,12 @@
 }
 body {
   font-family: Arial, Tahoma;
+  background-image: url(images/img_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
+
 .todo-container {
   margin: 30px auto 0;
   background-color: #f6f6f6;
@@ -85,12 +90,15 @@ body {
   width: 50%;
   float: left;
   padding: 10px;
+  font-weight: bold;
 }
 .task-stats .tasks-completed {
   width: 50%;
   float: right;
   padding: 10px;
   text-align: right;
+  font-weight: bold;
+
 }
 .task-stats .tasks-count span,
 .task-stats .tasks-completed span {
@@ -107,15 +115,13 @@ body {
   background-color: #03a9f4;
 }
 
-.todo-container .tasks-content .All
-{
+.todo-container .tasks-content .All {
   margin-bottom: 10px;
   display: flex;
   justify-content: flex-end;
 }
 
-.todo-container .tasks-content .All .DeleteAll
-{
+.todo-container .tasks-content .All .DeleteAll {
   margin-right: 34px;
   background-color: #f03b4a;
   border: none;
@@ -129,8 +135,7 @@ body {
   cursor: pointer;
 }
 
-.todo-container .tasks-content .All .FinishAll
-{
+.todo-container .tasks-content .All .FinishAll {
   margin-right: 3px;
   background-color: #41b568;
   border: none;
